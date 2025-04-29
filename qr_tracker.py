@@ -53,9 +53,9 @@ def view_logs():
                 <th>IP Address</th>
                 <th>User Agent</th>
             </tr>
-            {% for i, log in enumerate(logs, 1) %}
+            {% for log in logs %}
             <tr>
-                <td>{{ i }}</td>
+                <td>{{ loop.index }}</td>
                 <td>{{ log.timestamp }}</td>
                 <td>{{ log.ip }}</td>
                 <td>{{ log.user_agent }}</td>
