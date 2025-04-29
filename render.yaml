@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: qr-tracker
+    env: python
+    buildCommand: ""
+    startCommand: "python qr_tracker.py"
+    plan: free
