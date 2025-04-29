@@ -27,6 +27,3 @@ def track_and_redirect():
 @app.route("/")
 def home():
     return f"QR Scan Count: {load_count()}"
-
-if __name__ == "__main__":
-    app.run(debug=True)
