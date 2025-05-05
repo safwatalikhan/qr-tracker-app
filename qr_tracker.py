@@ -5,7 +5,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-DESTINATION_URL = "https://mason.gmu.edu/~skhan89/"
+DESTINATION_URL = "https://docs.google.com/presentation/d/1tik_VISb33KO11ylgUTWy7coiovIRtDAWv7z1wpE730/edit?usp=sharing"
 LOG_FILE = "scan_log.json"
 
 def load_logs():
